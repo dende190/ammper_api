@@ -240,6 +240,6 @@ router.post('/belvo/logout', (req, res) => {
   );
 });
 
-app.listen(8081, () => {
-  console.log('Servidor escuchando en el puerto', 8081);
+app.listen(process.env.PORT || 8081, () => {
+  console.log('Servidor escuchando en el puerto', process.env.PORT || 8081);
 });
