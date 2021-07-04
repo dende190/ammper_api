@@ -145,7 +145,31 @@ router.get('/belvo/link/list', (req, res) => {
 });
 
 router.post('/belvo/user/accounts', (req, res) => {
+  if (!req.body.token) {
+    res.status(301).send({
+      error: true
+    });
+  }
+
+if (!req.body.token) {
+    res.status(301).send({
+      error: true
+    });
+  }
+
+if (!req.body.token) {
+    res.status(301).send({
+      error: true
+    });
+  }
+
   const userData = jwt.decode(req.body.token);
+  if (!userData) {
+    res.status(301).send({
+      error: true
+    });
+  }
+
   (
     client
     .connect()
@@ -190,7 +214,25 @@ router.post('/belvo/user/accounts', (req, res) => {
 });
 
 router.post('/belvo/user/transactions', (req, res) => {
+  if (!req.body.token) {
+    res.status(301).send({
+      error: true
+    });
+  }
+
+if (!req.body.token) {
+    res.status(301).send({
+      error: true
+    });
+  }
+
   const userData = jwt.decode(req.body.token);
+  if (!userData) {
+    res.status(301).send({
+      error: true
+    });
+  }
+
   (
     client
     .connect()
@@ -222,7 +264,19 @@ router.post('/belvo/user/transactions', (req, res) => {
 });
 
 router.post('/belvo/logout', (req, res) => {
+  if (!req.body.token) {
+    res.status(301).send({
+      error: true
+    });
+  }
+
   const userData = jwt.decode(req.body.token);
+  if (!userData) {
+    res.status(301).send({
+      error: true
+    });
+  }
+
   (
     client
     .connect()
