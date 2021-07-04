@@ -1,0 +1,21 @@
+
+    --------------------------------------------------------------------
+      Error encontrado en api (/belvo/event):
+      Sat Jul 03 2021 12:40:46 GMT-0500 (Colombia Standard Time)
+      {"error_code":"duplicated","error_message":"Link already exists","institution_name":"erebor_mx_retail","timestamp":"2021-07-03T17:40:46.753Z"}
+    --------------------------------------------------------------------
+    --------------------------------------------------------------------
+      Error encontrado en api (/belvo/event):
+      Sat Jul 03 2021 12:45:53 GMT-0500 (Colombia Standard Time)
+      {"error_code":"token_required","error_message":"A MFA token is required by the institution to login","institution_name":"heimdall_mx_retail","timestamp":"2021-07-03T17:44:05.244Z"}
+    --------------------------------------------------------------------
+    --------------------------------------------------------------------
+      Error encontrado en api (/belvo/event):
+      Sat Jul 03 2021 12:47:47 GMT-0500 (Colombia Standard Time)
+      {"error_code":"duplicated","error_message":"Link already exists","institution_name":"erebor_mx_retail","timestamp":"2021-07-03T17:47:47.260Z"}
+    --------------------------------------------------------------------
+    --------------------------------------------------------------------
+      Error encontrado en api (/belvo/event):
+      Sun Jul 04 2021 01:33:11 GMT-0500 (Colombia Standard Time)
+      {"error_code":"duplicated","error_message":"Link already exists","institution_name":"gotham_mx_business","timestamp":"2021-07-04T06:33:11.447Z"}
+    --------------------------------------------------------------------
